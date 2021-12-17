@@ -13,5 +13,5 @@ Method to compare time difference averages for each search
  
 Test Cases:
 1. Random number of elements in int[] with random, sorted numbers in each
-  a. random number to generate n, which will be used with 10^n for randomness
+  a. Test Cases with 2 bill, 251 mil, .75 mil,  
   
