@@ -1,0 +1,15 @@
+CuteCyclopsCult Lab03 Plan
+
+* Include OrderedArrayList Wrapper Class
+* Make Wrapper class for BinSearch.java and LinSearch.java
+1. Record time at start and end of each method (linSearch, binSearchIter, binSearchRec)
+  a. Use System.currentTimeMillis(); to record current current time
+2. Record time at end of each method
+  a. time for method = end - start
+  b. compare times for each method
+
+* Make Driver file
+Test Cases:
+1. Random number of elements in int[] with random, unsorted numbers in each
+  a. random number to generate n, which will be used with 10^n for randomness
+  
