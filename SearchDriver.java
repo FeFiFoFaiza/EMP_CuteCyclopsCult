@@ -36,48 +36,50 @@ public class SearchDriver {
     return diff;
   }
 
-  /*
-  public static void compare(Comparable[] a, int target){
-    long linT, binT;
+  //compare the two Search methods
+  public static void compare(Comparable[] arr, int target){
+    long linT, binT, timeDiff;
+    linT = linTime(arr, target);
+    binT = binTime(arr, target);
+    System.out.println("linT: " + linT);
+    System.out.println("binT: " + binT);
+    System.out.println("Testing with dataset size: " + arr.length);
+
+    if (linT < binT) {
+      timeDiff = binT - linT;
+      System.out.println("LinearSearch is faster by " +
+                         timeDiff + " milliseconds.");
+    } else if (linT == binT) {
+      System.out.println("Took the same time.");
+    } else if (linT > binT) {
+      timeDiff = linT - binT;
+      System.out.println("BinarySearch is faster by " +
+                         timeDiff + " milliseconds.");
+    }
 
   }
-  */
+
+
 
   //store multiple test cases?
   /*
-  public static linResults();
+  public static linResults( long a);
 
-  public static binResults();
+  public static binResults( long a);
   */
 
 
   public static void main(String[] args){
     long beforeS, afterS;
 
-    //test case with 10000
-    Comparable[] test1 = new Comparable[11474833];
+    //test case with 10000000
+    Comparable[] test1 = new Comparable[10000000];
     populate(test1);
 
-    System.out.println(binTime(test1, 999999));
-    System.out.println(binTime(test1, -5));
-    System.out.println("------------------------");
-    System.out.println(linTime(test1, 999999));
-    System.out.println(linTime(test1, -5));
+    compare(test1, 99999);
+    compare(test1, -6);
 
 
 
-    /*
-    long init, aft;
-    init = System.currentTimeMillis();
-    int index = BinSearch.binSearch(test1, -90);
-    aft = System.currentTimeMillis();
-    System.out.println(index);
-
-
-    long difference = aft - init;
-    System.out.println(init);
-    System.out.println(aft);
-    System.out.println(difference);
-    */
-  }
-}
+  } //end of main
+} //end of class
