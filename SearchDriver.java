@@ -37,7 +37,7 @@ public class SearchDriver {
   }
 
 /*
-  //compare the two Search methods
+  //compare the two Search methods(1 trial)
   public static void compare(Comparable[] arr, int target){
     long linT, binT, timeDiff;
     linT = linTime(arr, target);
@@ -85,8 +85,6 @@ public class SearchDriver {
       binSum += binTime(arr, target);
     }
     binAvg = binSum / trials;
-
-
 
     timeDiff = Math.abs(linAvg - binAvg);
     //compare averages
