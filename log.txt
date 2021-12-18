@@ -1,1 +1,15 @@
+2021-12-16
+-made a plan 
+-created and registered team repo 
 
+
+2021-12-17
+-updated the plan 
+
+
+2021-12-18
+-In SearchDriver.java, implemented:
+   -method to populate array
+   -method to record the time for Binary Search
+   -method to record the time for Linear Search
+   -method to compare the two times above
