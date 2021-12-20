@@ -64,7 +64,7 @@ public class SearchDriver {
   //compare the two Search methods with multiple trials
   public static void compareAvg(Comparable[] arr){
     int trials = 100; //set to 100 trials now
-    int target;
+    int target = (int) arr[arr.length - 1];
     long linAvg, binAvg, linSum, binSum;
     long timeDiff;
     linSum = 0;
@@ -74,14 +74,12 @@ public class SearchDriver {
 
     //take avg of linearSearch trials
     for (int i = 0; i < trials; i++){
-      target = (int)(Math.random()*arr.length);
       linSum += linTime(arr, target);
     }
     linAvg = linSum / trials;
 
     //take avg of binarySeach trials
     for (int i = 0; i < trials; i++){
-      target = (int)(Math.random()*arr.length);
       binSum += binTime(arr, target);
     }
     binAvg = binSum / trials;
@@ -111,10 +109,12 @@ public class SearchDriver {
     System.out.println();
     System.out.println();
 
+
     //test case with 100 million numbers
     Comparable[] test2 = new Comparable[100_000_000];
     populate(test2);
     compareAvg(test2);
+
 
   } //end of main
 } //end of class
