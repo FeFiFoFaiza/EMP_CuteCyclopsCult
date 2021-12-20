@@ -1,17 +1,18 @@
 CuteCyclopsCult Lab03 Plan
 
-* Include OrderedArrayList Wrapper Class
+* Use Comparable array
 * In Driver:
 Method to record time difference average
-1. Record time at start and end of each method (linSearch, binSearchIter, binSearchRec)
+1. Record time at start and end of each method (linSearch, binSearchIter)
   a. Use System.currentTimeMillis(); to record current current time
 2. Record time at end of each method in 
   a. time for method = end - start
-  b. make an ArrayList for each search method and have the time differences as elements and average them out  
+  b. have the time differences as elements and average them out  
   c. compare times for each method (use method)
 Method to compare time difference averages for each search 
  
 Test Cases:
-1. Random number of elements in int[] with random, sorted numbers in each
-  a. Test Cases with 2 bill, 251 mil, .75 mil,  
+1. Random number of int elements in Comparable[] with sorted numbers in each
+  a. Test Cases with 100million, 750k 
+  b. The targets themselves represent the worst case scenario: the last element in the array
   
