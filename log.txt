@@ -16,3 +16,8 @@ CuteCyclopsCult Lab03 LOG
    -method to record the time for Linear Search
    -method to compare the two times above
    -method to compare the averages of Binary Search and Linear Search trials 
+
+2021-12-19
+- Updated Read-me
+   - Results, Conclusions, Tests Preformed
+- Tested the boundaries of testing capacity and Java heap Space
