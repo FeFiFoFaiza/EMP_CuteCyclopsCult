@@ -4,16 +4,27 @@
   * L03 -- Get Empirical
   
  # 12-20-2021
+ DISCOS/Notes:
  * Don't need to allocate heap space to run searches on arrays of larger size (200mill+), instead increase the number of trials to find a measureable difference between binSearch and linSearch
  * Running 100 trials is fine as it creates a measureable difference between binSearch and linSearch, so running 1000 is uneccesary and time consuming
  * Worst case scenario for this experiment is when target is the last element of an array, therefore the target element for the searchs should be the length of the array -1. (Or the target does not exist in array)
  * Cannot use the get method for Comparables, since it is a method for ArrayList
+ QCC:
+ * Should we comment out all our other arrays being tested and test them individually in order to be able to use arrays of higher size without Java running out of memory?
  
  # 12-19-2021
+ DISCOS/Notes:
  * Running a test on arrays with more than 210 million elements causes an Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+ * Piazza post solution: increase the space allotted to JVM by saying java -Xmx3072m ClassName
+ QCC:
+ * Piazza solution does not seem to be working still :/
  
  # 12-18-2021
+ DISCOS/Notes:
  * To make large numbers readable, use underscores (eg. 1_000_000 is 1 million)  
  
  #1 12-17-2021
+ DISCOS/Notes:
  * Must use System.currentTimeMillis(); to record times
+ QCC:
+ * Should we use OrderedArrayList or just a normal Array or just an Array? Will choosing one over have complications in the future (ie different methods)?
