@@ -1,1 +1,18 @@
-
+* Team Cute Cyclops Cult 
+  * Faiza Huda, Tasnim Chowdhury, Rin Fukuoka, 
+  * APCS
+  * L03 -- Get Empirical
+  
+ # 12-20-2021
+ * Don't need to allocate heap space to run searches on arrays of larger size (200mill+), instead increase the number of trials to find a measureable difference between binSearch and linSearch
+ * Running 100 trials is fine as it creates a measureable difference between binSearch and linSearch, so running 1000 is uneccesary and time consuming
+ * Worst case scenario for this experiment is when target is the last element of an array, therefore the target element for the searchs should be the length of the array -1.
+ 
+ # 12-19-2021
+ * Running a test on arrays with more than 210 million elements causes an Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+ 
+ # 12-18-2021
+ * To make large numbers readable, use underscores (eg. 1_000_000 is 1 million)  
+ 
+ #1 12-17-2021
+ * Must use System.currentTimeMillis(); to record times
