@@ -30,3 +30,4 @@ Lab03
 2021-12-20
 -Changed the target for Binary and Linear Search to a fixed value (last element of array) instead of a random value
 -Updated notes.txt
+-Recorded change of plan in plan.txt
