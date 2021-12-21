@@ -26,3 +26,7 @@ Lab03
 - Updated Read-me
    - Results, Conclusions, Tests Preformed
 - Tested the boundaries of testing capacity and Java heap Space
+
+2021-12-20
+-Changed the target for Binary and Linear Search to a fixed value (last element of array) instead of a random value
+-Updated notes.txt
