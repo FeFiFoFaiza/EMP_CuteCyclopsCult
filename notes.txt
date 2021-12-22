@@ -2,7 +2,32 @@
   * Faiza Huda, Tasnim Chowdhury, Rin Fukuoka, 
   * APCS
   * L03 -- Get Empirical
+ 
+ # 12-21-2021 Gallery Tour: 
+ Team FrogHats:
+  - Results aligned and consistent
+  - 4 test cases with 20 trials each:
+      - random target in 10 item array
+      - random target in 9.9 million item array
+      - last element in 10 item array (worst case)
+      - last element in 9.9 million item array (worst case)
+  - Found a variance based on computers (rm 251 vs rm 307 csdojo)
   
+ Team Walrus:
+  - Results aligned and consistent
+  - 50k trials on 1 million item array
+      - targets on the 2nd half to ensure something similar to last case but still have some randomness
+      - only 1 size tested
+  - Also implemented soft measurements: how many times the array was accessed for both search algos
+  
+ Team Discord Ducks:
+  - Results aligned and consistent
+  - 7 test cases with 100 trials each:
+      - different array lengths for each test case (up to 50 million)
+      - 100 random targets for each
+      - Not worse case but rationalized what worse case results may produce
+  - Used a data table and also output snippets in ReadMe
+ 
  # 12-20-2021
  DISCOS/Notes:
  * Don't need to allocate heap space to run searches on arrays of larger size (200mill+), instead increase the number of trials to find a measureable difference between binSearch and linSearch
