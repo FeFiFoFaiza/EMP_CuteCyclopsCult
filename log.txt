@@ -31,3 +31,7 @@ Lab03
 -Changed the target for Binary and Linear Search to a fixed value (last element of array) instead of a random value
 -Updated notes.txt
 -Recorded change of plan in plan.txt
+
+2021-12-21
+-Added GALLERY TOUR to notes.txt
+-Changed SearchDriver.java so that it stores time differences as double 
