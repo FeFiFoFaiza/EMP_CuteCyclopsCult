@@ -65,8 +65,8 @@ public class SearchDriver {
   public static void compareAvg(Comparable[] arr){
     int trials = 100; //set to 100 trials now
     int target = (int) arr[arr.length - 1];
-    long linAvg, binAvg, linSum, binSum;
-    long timeDiff;
+    double linAvg, binAvg, linSum, binSum;
+    double timeDiff;
     linSum = 0;
     binSum = 0;
 
