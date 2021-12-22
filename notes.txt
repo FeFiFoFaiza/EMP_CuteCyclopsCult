@@ -27,6 +27,26 @@
       - 100 random targets for each
       - Not worse case but rationalized what worse case results may produce
   - Used a data table and also output snippets in ReadMe
+  
+ Team Three Lucky Duckies
+  - Two test cases:
+       - Searching for 200 random element in array 
+       - Searching for the last element in array
+  - Prints out the sum of 100 trials 
+  -Uses a data table with 3 trials for each test cases
+       
+ Team Perfect Purple Petunias
+  - Prints out the results for LinSearch, BinSearch, and their difference 
+  - Takes the time taken for 100 trials to run
+  - Got data suggesting that linear search is faster than binary search when using int[]
+
+ Team We Forgot
+  - Runs search for every element in the array 
+  - Tables and graphs to represent the obtained data
+  - Data suggests that as the array size increases, linear search takes more time while binary search 
+    relatively takes the same amount of time 
+    
+
  
  # 12-20-2021
  DISCOS/Notes:
